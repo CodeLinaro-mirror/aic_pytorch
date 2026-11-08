@@ -107,7 +107,7 @@ intel-openmp<2026.2.0 ; platform_machine == "x86_64" or platform_machine == "AMD
 #Pinned versions:
 #test that import:
 
-mypy==1.16.0 ; platform_system == "Linux"
+mypy==2.4.1 ; platform_system == "Linux"
 # Pin MyPy version because new errors are likely to appear with each release
 # Skip on Windows as lots of type annotations are POSIX specific
 #Description: linter
